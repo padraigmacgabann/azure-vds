@@ -14,7 +14,7 @@
     "request-promise": "^4.2.5"
   },
   "scripts": {
-    "prestart": "npm install"
+    "prestart": "npm install" 
   },
   "devDependencies": {}
 }

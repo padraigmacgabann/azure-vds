@@ -17,6 +17,12 @@ app.use(cookieParser());
 // (e.g. stylesheets) should be served from.
 app.use(express.static(path.join(__dirname, "public")));
 // begin listening for requests.
+/* CHANGE 5/5/2020 7:45PM -@PM
+ *
+ * make it so that default port is HTTP (80) instead of DEBUG (8080).
+ *
+ * const port = process.env.PORT || 8080;
+ */
 const port = process.env.PORT || 8080;
 const region = process.env.REGION || "Unknown";
 
